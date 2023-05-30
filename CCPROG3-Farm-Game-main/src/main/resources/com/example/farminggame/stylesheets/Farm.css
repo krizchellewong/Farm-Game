@@ -1,0 +1,218 @@
+.gameFont {
+    -fx-font-family: "Futura";
+}
+
+.imgBtn {
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-content-display: graphic-only; 
+}
+
+.farmBackground {
+    -fx-background-color: rgb(208, 161, 95);
+}
+
+.farm-tile {
+    -fx-min-width: 75px;
+    -fx-min-height: 75px;
+}
+
+.unplowed-tile {
+    -fx-background-image: url("../assets/environment/default-tile.png");
+}
+
+.plowed-tile {
+    -fx-background-image: url("../assets/environment/plowed-tile.png")
+}
+
+.rock-tile {
+    -fx-background-image: url("../assets/environment/rock.png");
+
+}
+
+.farmer-icon {
+    -fx-background-image: url("../assets/misc/default-farmer.png");
+    -fx-min-width: 100px;
+    -fx-min-height: 100px;
+}
+
+.farmerInformation {
+    -fx-font-size: 18px;
+}
+
+.farmTitle {
+    -fx-font-size: 44px;
+}
+
+.popUp {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+}
+
+.exit {
+    -fx-background-radius: 70px;
+}
+
+#tileDescriptionBox {
+    -fx-background-color: rgb(216, 216, 216);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+}
+
+#tileDescLabel {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.05), 10, 0.5, 0.0, 0.0);
+    -fx-highlight-fill: null;
+    -fx-highlight-text-fill: null;
+}
+
+.tileInfoText {
+    -fx-font-size: 16px;
+}
+
+.marketBtn {
+    -fx-background-size: 100% 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0.3, 0.0, 0.0);
+}
+
+.toolBtn  {
+    -fx-min-width: 75px;
+    -fx-min-height: 75px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+}
+.cropBtn {
+    -fx-min-width: 65px;
+    -fx-min-height: 65px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+    -fx-background-size: 90%;
+    -fx-background-position: center;
+}
+
+
+.exitBtn {
+    -fx-padding: 50px;
+}
+
+#gameOverBox {
+    -fx-background-color: rgb(216, 216, 216);
+    -fx-max-height: 175px;
+    -fx-max-width: 350px;
+}
+
+#menuBar {
+    -fx-padding: 10px;
+}
+
+#openMarketBtn {
+    -fx-background-image:  url("../assets/misc/market.png");
+    -fx-min-width: 75px;
+    -fx-min-height: 75px;
+    -fx-background-size: 85% 85%;
+    -fx-background-position: center;
+}
+
+#carrotBtn {
+    -fx-background-image: url("../assets/crops/carrot.png");
+}
+
+#appleBtn {
+    -fx-background-image: url("../assets/crops/apple.png");
+}
+
+#mangoBtn {
+    -fx-background-image: url("../assets/crops/mango.png");
+}
+
+#potatoBtn {
+    -fx-background-image: url("../assets/crops/potato.png");
+}
+
+#turnipBtn {
+    -fx-background-image: url("../assets/crops/turnip.png");
+}
+
+#roseBtn {
+    -fx-background-image: url("../assets/crops/rose.png");
+}
+
+#sunflowerBtn {
+    -fx-background-image: url("../assets/crops/sunflowers.png");
+}
+
+#tulipBtn {
+    -fx-background-image: url("../assets/crops/tulip.png");
+}
+
+#marketCarrotBtn {
+    -fx-background-image: url("../assets/market/market-carrot.png");
+}
+
+#marketAppleBtn {
+    -fx-background-image: url("../assets/market/market-apple.png");
+}
+
+#marketMangoBtn {
+    -fx-background-image: url("../assets/market/market-mango.png");
+}
+
+#marketPotatoBtn {
+    -fx-background-image: url("../assets/market/market-potato.png");
+}
+
+#marketTurnipBtn {
+    -fx-background-image: url("../assets/market/market-turnip.png");
+}
+
+#marketRoseBtn {
+    -fx-background-image: url("../assets/market/market-rose.png");
+}
+
+#marketSunflowerBtn {
+    -fx-background-image: url("../assets/market/market-sunflower.png");
+}
+
+#marketTulipBtn {
+    -fx-background-image: url("../assets/market/market-tulip.png");
+}
+
+#ploughBtn {
+    -fx-background-image: url("../assets/tools/plough.png");
+}
+
+#shovelBtn, #shovelCropBtn {
+    -fx-background-image: url("../assets/tools/shovel.png");
+}
+
+#pickaxeBtn {
+    -fx-background-image: url("../assets/tools/pickaxe.png");
+}
+
+#fertilizerBtn {
+    -fx-background-image: url("../assets/tools/fertilizer.png");
+}
+
+#wateringCanBtn {
+    -fx-background-image: url("../assets/tools/watering-can.png");
+}
+
+#harvestBtn {
+    -fx-background-image: url("../assets/tools/harvest.png");
+}
+
+#dayDisplay {
+    -fx-font-size: 16px;
+}
+
+#shovelNotif {
+    -fx-font-size: 17px;
+}
+
+#successText, #failedText {
+    -fx-font-size: 15px;
+}
+
+#exitBtn {
+    -fx-background-image: url("../assets/misc/home.png");
+    -fx-background-size: 100% 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-radius: 200px;
+
+}
